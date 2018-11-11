@@ -43,7 +43,7 @@
   --coffee7: #1a1102;
   --coffee8: #362305;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
+  --breakpoint-sm: 575px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
@@ -476,9 +476,9 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 576px) {
+  @media (min-width: 575px) {
     .container {
-      max-width: 540px; } }
+      max-width: 539px; } }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
@@ -720,7 +720,7 @@ pre {
 .offset-11 {
   margin-left: 91.66667%; }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1637,7 +1637,7 @@ pre {
   .table-dark.table-hover tbody tr:hover {
     background-color: rgba(255, 255, 255, 0.075); }
 
-@media (max-width: 575.98px) {
+@media (max-width: 574.98px) {
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -2038,7 +2038,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   align-items: center; }
   .form-inline .form-check {
     width: 100%; }
-  @media (min-width: 576px) {
+  @media (min-width: 575px) {
     .form-inline label {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2342,9 +2342,9 @@ fieldset:disabled a.btn {
   background-color: #000;
   border-color: #000; }
   .btn-black:hover {
-    color: #000;
-    background-color: #a2dfe9;
-    border-color: #a2dfe9; }
+    color: #fff;
+    background-color: black;
+    border-color: black; }
   .btn-black:focus, .btn-black.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
@@ -3888,13 +3888,13 @@ tbody.collapse.show {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
-@media (max-width: 575.98px) {
+@media (max-width: 574.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .navbar-expand-sm {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -4275,7 +4275,7 @@ tbody.collapse.show {
   flex-direction: column; }
   .card-deck .card {
     margin-bottom: 15px; }
-  @media (min-width: 576px) {
+  @media (min-width: 575px) {
     .card-deck {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -4308,7 +4308,7 @@ tbody.collapse.show {
   flex-direction: column; }
   .card-group > .card {
     margin-bottom: 15px; }
-  @media (min-width: 576px) {
+  @media (min-width: 575px) {
     .card-group {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -4361,7 +4361,7 @@ tbody.collapse.show {
 .card-columns .card {
   margin-bottom: 0.75rem; }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .card-columns {
     -webkit-column-count: 3;
     column-count: 3;
@@ -4656,7 +4656,7 @@ tbody.collapse.show {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem; }
-  @media (min-width: 576px) {
+  @media (min-width: 575px) {
     .jumbotron {
       padding: 4rem 2rem; } }
 
@@ -5339,7 +5339,7 @@ button.close {
   height: 50px;
   overflow: scroll; }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto; }
@@ -6072,7 +6072,7 @@ button.bg-coffee8:focus {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important; }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .d-sm-none {
     display: none !important; }
   .d-sm-inline {
@@ -6359,7 +6359,7 @@ button.bg-coffee8:focus {
   -ms-flex-item-align: stretch !important;
   align-self: stretch !important; }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .flex-sm-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -6792,7 +6792,7 @@ button.bg-coffee8:focus {
 .float-none {
   float: none !important; }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .float-sm-left {
     float: left !important; }
   .float-sm-right {
@@ -7198,7 +7198,7 @@ button.bg-coffee8:focus {
 .mx-auto {
   margin-left: auto !important; }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .m-sm-0 {
     margin: 0 !important; }
   .mt-sm-0,
@@ -8067,7 +8067,7 @@ button.bg-coffee8:focus {
 .text-center {
   text-align: center !important; }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .text-sm-left {
     text-align: left !important; }
   .text-sm-right {
