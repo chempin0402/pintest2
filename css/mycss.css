@@ -1,0 +1,46 @@
+.top_bg_img{
+            height: 70vh;
+            background-image: url(../images/top_bg.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+    }
+    .row{
+        margin-left: 0px;
+    }
+    .btn-black:hover {
+    color: #101010;
+    background-color: #0efdf4;
+    border-color: #0efdf4; 
+    }
+    img {
+    opacity: 0.5;
+    }
+    img:hover {
+    opacity: 1;
+    }
+    .bot_a{
+        text-decoration-line: underline;
+        color: #ad7218;
+    }
+    .bot_a:hover{
+        text-decoration-line: none;
+        color: #ad7218;
+    }
+    .bot_a_r{
+        text-decoration-line: underline;
+        color: #6b440a;
+    }
+    .bot_a_r:hover{
+        text-decoration-line: none;
+        color: #6b440a;
+    }
+    .footer_a{
+        text-decoration-line: none;
+        color: #ad7218;
+    }
+    .footer_a:hover{
+        text-decoration-line: none;
+        color: #ad7218;
+    }
